@@ -15,7 +15,6 @@
     "noImplicitThis": true,
     "noImplicitAny": true,
     "strictNullChecks": true,
-    "suppressImplicitAnyIndexErrors": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "allowSyntheticDefaultImports": true,
@@ -26,7 +25,15 @@
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "noEmit": true
+    "noEmit": true,
+    "baseUrl": "src",
+    "types": ["node"],
+    "paths": {
+      "@/*": ["./src/*"],
+      "@st-components": ["src/components/*"],
+      "@st-helpers": ["src/helpers/*"],
+      "@st-types": ["src/types/*"],
+    }
   },
   "include": [
     "src"

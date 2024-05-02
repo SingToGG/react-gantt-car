@@ -319,6 +319,8 @@ export const Calendar: React.FC<CalendarProps> = ({
         hour: "numeric",
       }).format(date);
 
+      console.log(`bottomValue : `, bottomValue);
+
       bottomValues.push(
         <text
           key={date.getTime()}
