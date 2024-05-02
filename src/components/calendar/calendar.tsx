@@ -319,7 +319,6 @@ export const Calendar: React.FC<CalendarProps> = ({
         hour: "numeric",
       }).format(date);
 
-      console.log(`bottomValue : `, bottomValue);
 
       bottomValues.push(
         <text
@@ -329,7 +328,7 @@ export const Calendar: React.FC<CalendarProps> = ({
           className={styles.calendarBottomText}
           fontFamily={fontFamily}
         >
-          {bottomValue}
+          {bottomValue}:00
         </text>
       );
       if (i !== 0 && date.getDate() !== dates[i - 1].getDate()) {
