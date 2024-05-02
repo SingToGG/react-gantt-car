@@ -9,7 +9,7 @@
 ## Install
 
 ```
-npm install gantt-task-react
+npm install singto-gantt-task-react
 ```
 
 ## How to use it
