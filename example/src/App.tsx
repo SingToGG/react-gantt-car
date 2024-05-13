@@ -74,7 +74,7 @@ const App = () => {
         onViewListChange={setIsChecked}
         isChecked={isChecked}
       />
-      <h3>Gantt With Unlimited Height</h3>
+      {/* <h3>Gantt With Unlimited Height</h3> */}
       <Gantt
         tasks={tasks}
         viewMode={view}
@@ -85,10 +85,10 @@ const App = () => {
         onClick={handleClick}
         onSelect={handleSelect}
         onExpanderClick={handleExpanderClick}
-        listCellWidth={isChecked ? "155px" : ""}
+        listCellWidth={isChecked ? "300px" : ""}
         columnWidth={columnWidth}
       />
-      <h3>Gantt With Limited Height</h3>
+      {/* <h3>Gantt With Limited Height</h3>
       <Gantt
         tasks={tasks}
         viewMode={view}
@@ -102,7 +102,7 @@ const App = () => {
         listCellWidth={isChecked ? "155px" : ""}
         ganttHeight={300}
         columnWidth={columnWidth}
-      />
+      /> */}
     </div>
   );
 };
