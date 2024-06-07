@@ -1,13 +1,13 @@
 {
-  "name": "singto-gantt-task-react",
+  "name": "react-gantt-car",
   "version": "0.4.1",
   "description": "Singto Interactive Gantt Chart for React with TypeScript.",
   "author": "SingToGG <rapha.chotinobpharat@gmail.com>",
-  "homepage": "https://github.com/SingToGG/singto-gantt-task-react",
+  "homepage": "https://github.com/SingToGG/react-gantt-car",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/SingToGG/singto-gantt-task-react.git"
+    "url": "https://github.com/SingToGG/react-gantt-car"
   },
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
